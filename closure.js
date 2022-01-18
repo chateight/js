@@ -1,7 +1,7 @@
 var createTimer = function() {
     var time = 10;
 
-    return function timeDown() { // return the timeDown function object
+    return function timeDown() { // return timeDown() object
         time -= 1;
         console.log(time);
     };
